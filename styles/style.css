@@ -1,0 +1,38 @@
+html{
+    /* px 表示 “像素（pixels）”: 基础字号为 10 像素 */
+    font-size: 10px;
+    /* Google fonts 输出的 CSS */
+    font-family: 'Open Sans', sans-serif;
+    /* 页面背景色 */
+    background-color: #00539F;
+}
+
+body{
+    width: 700px;
+    margin: 10px auto;
+    background-color: #FF9500;
+    padding: 0 10px 20px 20px;
+    border: 5px solid black;
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #00539F;
+    /* 设置文本阴影  水平偏移量 垂直偏移量 模糊半径 阴影基色 */
+    text-shadow: 3px 3px 1px black;
+}
+
+p,li{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+/* 图像居中 */
+img{
+    /* 图片标签是内联元素，display: block 使其具有块级元素(外边距)功能 */
+    display: block;
+    margin: 0 auto;
+}
